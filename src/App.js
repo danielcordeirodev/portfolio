@@ -1,3 +1,4 @@
+import React from "react";
 import Header from './components/header';
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
     <div>
       <Header />
       <p>
-        Hello World
+        Welcome to my personal page. You can check all my projects below:
       </p>
     </div>
   );
