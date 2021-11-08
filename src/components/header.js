@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, NavDropdown, Nav, Container, Form, FormControl, Button } from 'react-bootstrap';
+import { Navbar, NavDropdown, Nav, Container } from 'react-bootstrap';
 
 const Header = () => {
   const title = "Daniel Cordeiro - Software engineer";
