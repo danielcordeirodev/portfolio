@@ -6,14 +6,13 @@ const AboutMeDescription = (props) => {
 
   return (
     <Row className="justify-content-lg-center" style={{ ...styles.marginTop }}>
-      <Col lg="3"></Col>
-      <Col lg="3">
+      <Col lg="1"></Col>
+      <Col lg="5">
         <h5>About me</h5>
         <p style={{ ...styles.textColor }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas suscipit felis nec mi consectetur, a tincidunt est mattis. Mauris consectetur nisl vel ullamcorper porttitor. Nulla eu metus sem. Aenean lacinia, nisl rutrum rhoncus porttitor, urna tortor placerat dui, vel tristique nibh quam eu purus. Suspendisse lacus lorem, porta et odio vel, accumsan vestibulum nunc. Ut tincidunt suscipit urna eget auctor. Suspendisse in consectetur lacus.
-        </p>
+          I am a Junior software engineer with 2 degrees in Computer Science and 2 years of professional experience with the ability to develop back-end applications with some front-end. I study daily to improve my software knowledge and I like to develop projects from scratch to be able to improve any part of it and give my best ideas. My favorite development methodology is KANBAN and the one containing CI/CD and TDD, for me, it's an art. When I write code I do my best to keep it clean and as efficient as possible, like Michael Feathers said "Clean code always looks like it was written by someone who cares".        </p>
       </Col>
-      <Col lg="3">
+      <Col lg="5">
         <h5>Contact </h5>
         <Row>
           <Col lg="1">
@@ -59,7 +58,7 @@ const AboutMeDescription = (props) => {
           </Col>
         </Row>
       </Col>
-      <Col lg="3"></Col>
+      <Col lg="1"></Col>
     </Row >
   );
 }
