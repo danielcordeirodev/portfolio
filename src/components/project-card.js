@@ -11,7 +11,7 @@ const ProjectCard = (props) => {
         <Card.Text>
           {props.project.description}
         </Card.Text>
-        <Button variant="primary" onChange={props.project.visitPress}>Take a look</Button>
+        <Button variant="primary" onClick={props.visitProject}>Take a look</Button>
       </Card.Body>
     </Card>
   );
