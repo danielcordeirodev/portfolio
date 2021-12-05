@@ -1,5 +1,6 @@
 import React, { useCallback } from "react";
 import Header from './components/header';
+import AboutMeHeader from './components/about-me-header';
 import ProjectCard from './components/project-card';
 
 function App() {
@@ -15,9 +16,7 @@ function App() {
   return (
     <div>
       <Header />
-      <p>
-        Welcome to my personal page. You can check all my projects below:
-      </p>
+      <AboutMeHeader />
       <ProjectCard
         project={{
           title: "task-organizer",
