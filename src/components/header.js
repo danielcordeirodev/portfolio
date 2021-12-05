@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, NavDropdown, Nav, Container } from 'react-bootstrap';
 
 const Header = () => {
-  const title = "Daniel Cordeiro - Software engineer";
+  const title = "Daniel Cordeiro";
 
   return (
     <Navbar bg="light" expand="lg">

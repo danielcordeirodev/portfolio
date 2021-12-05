@@ -3,6 +3,6 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const headerElement = screen.getByText("Daniel Cordeiro - Software engineer");
+  const headerElement = screen.getByText("Daniel Cordeiro");
   expect(headerElement).toBeInTheDocument();
 });
