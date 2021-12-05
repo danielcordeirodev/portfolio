@@ -5,7 +5,7 @@ const Header = () => {
   const title = "Daniel Cordeiro";
 
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg" fixed="top" bg="light" style={{ ...styles.borderBottom }}>
       <Container fluid>
         <Navbar.Brand href="#">{title}</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -30,6 +30,12 @@ const Header = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>)
+}
+
+const styles = {
+  borderBottom: {
+    boxShadow: "0 1px 0 gray"
+  }
 }
 
 export default Header;

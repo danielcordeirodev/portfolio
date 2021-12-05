@@ -1,6 +1,6 @@
 import React, { useCallback } from "react";
 import Header from './components/header';
-import AboutMeHeader from './components/about-me-header';
+import AboutMe from './components/about-me';
 import ProjectCard from './components/project-card';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       <Header />
-      <AboutMeHeader />
+      <AboutMe />
       <ProjectCard
         project={{
           title: "task-organizer",
