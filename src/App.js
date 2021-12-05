@@ -1,22 +1,30 @@
-import React, { useCallback } from "react";
+// import React, { useCallback } from "react";
+import React from "react";
 import Header from './components/header';
 import AboutMe from './components/about-me';
-import ProjectCard from './components/project-card';
+// import ProjectCard from './components/project-card';
+import ProjectsCarousel from './components/carousel';
 
 function App() {
 
-  const visitProject = useCallback(
-    () => {
-      console.log("entrou");
-      alert("visited the link");
-    },
-    []
-  );
+  // const visitProject = useCallback(
+  //   () => {
+  //     console.log("entrou");
+  //     alert("visited the link");
+  //   },
+  //   []
+  // );
 
   return (
     <div>
-      <Header />
-      <AboutMe />
+      <section style={{ ...styles.fullHeight }}>
+        <Header />
+        <AboutMe />
+      </section>
+      {/* <section style={{ ...styles.fullHeight }}> */}
+      {/*   <ProjectsCarousel /> */}
+      {/* </section> */}
+
       {/* <ProjectCard */}
       {/*   project={{ */}
       {/*     title: "task-organizer", */}
@@ -27,6 +35,13 @@ function App() {
       {/* /> */}
     </div>
   );
+}
+
+const styles = {
+  fullHeight: {
+    display: "block",
+    height: "100vh",
+  }
 }
 
 export default App;

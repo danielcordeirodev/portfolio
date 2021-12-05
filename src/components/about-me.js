@@ -3,6 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import AboutMeHeader from './about-me-header';
 import AboutMeAvatar from './about-me-avatar';
 import AboutMeDescription from './about-me-description';
+import AboutMeWorkExperience from './about-me-work-experience';
 
 const AboutMe = (props) => {
 
@@ -13,6 +14,8 @@ const AboutMe = (props) => {
         <AboutMeHeader />
       </Row>
       <AboutMeDescription />
+      <hr />
+      <AboutMeWorkExperience />
     </Container >
   );
 }
