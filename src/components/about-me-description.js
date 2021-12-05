@@ -19,7 +19,7 @@ const AboutMeDescription = (props) => {
             <SiUpwork />
           </Col>
           <Col lg="auto">
-            <a href="https://www.upwork.com/freelancers/~012c7a2c3a1a24e44b">
+            <a target="_blank" href="https://www.upwork.com/freelancers/~012c7a2c3a1a24e44b">
               https://www.upwork.com/freelancers/~012c7a2c3a1a24e44b
             </a>
           </Col>
@@ -30,7 +30,7 @@ const AboutMeDescription = (props) => {
             <SiLinkedin />
           </Col>
           <Col lg="auto">
-            <a href="https://www.linkedin.com/in/danieldcordeiro">
+            <a target="_blank" href="https://www.linkedin.com/in/danieldcordeiro">
               https://www.linkedin.com/in/danieldcordeiro
             </a>
           </Col>
@@ -41,7 +41,7 @@ const AboutMeDescription = (props) => {
             <SiGithub />
           </Col>
           <Col lg="auto">
-            <a href="https://github.com/danielcordeirodev">
+            <a target="_blank" href="https://github.com/danielcordeirodev">
               https://github.com/danielcordeirodev
             </a>
           </Col>
@@ -52,7 +52,7 @@ const AboutMeDescription = (props) => {
             <SiItchdotio />
           </Col>
           <Col lg="auto">
-            <a href="https://daniel-cordeiro.itch.io">
+            <a target="_blank" href="https://daniel-cordeiro.itch.io">
               https://daniel-cordeiro.itch.io
             </a>
           </Col>
