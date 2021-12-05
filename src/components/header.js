@@ -15,7 +15,7 @@ const Header = () => {
             navbarScroll
           >
             <Nav.Link href="#action1">About me</Nav.Link>
-            <NavDropdown title="Projects" id="navbarScrollingDropdown">
+            <NavDropdown title="Projects" disabled id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Web</NavDropdown.Item>
               <NavDropdown.Item href="#action4">Mobile</NavDropdown.Item>
               <NavDropdown.Divider />
