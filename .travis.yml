@@ -1,0 +1,23 @@
+sudo: required # ask for super user permissions
+services:
+  - docker # ask to install a copy of docker into the container
+
+before_install: # commands that are exec before the tests
+  - "docker build -t danielcordeirodev/my-portfolio -f Dockerfile.dev ."
+
+script: # commands to run the test suite
+  - "docker run -e CI=true danielcordeirodev/my-portfolio yarn test -- --coverage"
+
+language: generic
+
+deploy:
+  provider: elasticbeanstalk
+  region: "eu-west-3"
+  app: "my-portfolio"
+  env: "Myportfolio-env"
+  bucket_name: "elasticbeanstalk-eu-west-3-514197381319"
+  bucket_path: "my-portfolio"
+  on:
+    branch: main
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
